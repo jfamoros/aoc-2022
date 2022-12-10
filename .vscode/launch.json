@@ -45,6 +45,20 @@
             },
             "args": [],
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug test day 7",
+            "cargo": {
+                "args": ["test", "--bin=07"],
+                "filter": {
+                    "name": "advent_of_code",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
